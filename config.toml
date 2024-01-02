@@ -1,6 +1,13 @@
 baseURL = 'https://docs.coremud.org'
 languageCode = 'en-us'
 title = 'Coremud Documentation'
+
+
+
+[module]
+[[module.imports]]
+    path = 'github.com/spf13/hyde'
+
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-relearn"
 
