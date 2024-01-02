@@ -1,4 +1,4 @@
 baseURL = 'https://docs.coremud.org'
 languageCode = 'en-us'
 title = 'Coremud Documentation'
-theme = 'hugo-theme-relearn-main'
+theme = 'hugo-theme-relearn'
