@@ -7,6 +7,10 @@
 [build.environment]
   HUGO_VERSION = "0.101.0"
 
+[module]
+[[module.imports]]
+    path = 'hugo-theme-relearn'
+
 [[plugins]]
   package = "netlify-plugin-cypress"
 
