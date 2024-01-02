@@ -1,4 +1,9 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = 'https://docs.coremud.org'
 languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
-theme = 'netlify-basic'
+title = 'Coremud Documentation'
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-relearn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
