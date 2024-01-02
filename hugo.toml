@@ -1,0 +1,5 @@
+[module]
+[[module.imports]]
+    path = 'hugo-theme-relearn-main'
+
+
